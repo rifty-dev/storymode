@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Minecraft Story Mode Items",
+    "pack_format": 75,
+    "supported_formats": { "min_inclusive": 64, "max_inclusive": 75 }
+  }
+}

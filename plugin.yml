@@ -1,0 +1,15 @@
+name: StoryModeItems
+version: '${project.version}'
+main: dev.storymode.StoryModePlugin
+api-version: '1.21'
+author: dev.storymode
+description: Minecraft Story Mode item recreations (White Pumpkin, Enchanted Flint and Steel).
+commands:
+  storyitem:
+    description: Gives one of the custom Story Mode items.
+    usage: /storyitem <white_pumpkin|flint_blue|flint_green> [player]
+    permission: storymodeitems.give
+permissions:
+  storymodeitems.give:
+    description: Allows use of /storyitem.
+    default: op
